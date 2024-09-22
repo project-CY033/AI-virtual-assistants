@@ -142,12 +142,178 @@ function takeCommand(message) {
 
     // Basic responses
     else if (message.includes("hello") || message.includes("hey")) {
-        speak("Hello! How can I help you today?");
+        speak("Hello! I am cyberia How can I help you today?");
     } else if (message.includes("who are you") || message.includes("what is your name")) {
-        speak("I am a virtual assistant created by Musharraf Khan. How can I assist you?");
+        speak("I am cyberia, a virtual assistant created by Aryan. How can I assist you?");
     } else if (message.includes("how are you")) {
         speak("I'm doing great! Thank you for asking.");
     }
+
+    else if (message.includes("what is your name ")) {
+        speak("I am a cyberia, a virtual assistant designed to help you with various tasks and assist you in various ways.");
+    }
+
+    else if (message.includes("what is your ")) {
+        speak("I am a virtual assistant designed to help you with various tasks and assist you in various ways.");
+    } else if (message.includes("what can you do")) {
+        speak("I can assist you with various tasks such as opening applications, searching the internet, playing music, and much more.");
+    } else if (message.includes("what are your hobbies")) {
+        speak("I enjoy playing music, watching movies, and exploring new places.");
+    } else if (message.includes("what are your skills")) {
+        speak("I am a virtual assistant created by Aryan. I am capable of handling various tasks and can perform various functions.");
+    } else if (message.includes("what are your favorite movies")) {
+        speak("My favorite movie is The Dark Knight.");
+    } else if (message.includes("what are your favorite songs")) {
+        speak("My favorite song is Taylor Swift's Havana.");
+    } else if (message.includes("what are your favorite places")) {
+        speak("My favorite place is the beach.");
+    } else if (message.includes("what are your favorite foods")) {
+        speak("My favorite food is pizza.");
+    } else if (message.includes("what are your favorite animals")) {
+        speak("My favorite animal is a cat.");
+    } else if (message.includes("what are your favorite colors")) {
+        speak("My favorite color is blue.");
+    } else if (message.includes("what are your favorite numbers")) {
+        speak("My favorite number is 7.");
+    } else if (message.includes("what are your favorite things")) {
+        speak("My favorite thing is a good book.");
+    } else if (message.includes("what are your favorite movies")) {
+        speak("My favorite movie is The Dark Knight.");
+    } else if (message.includes("what are your favorite songs")) {
+        speak("My favorite song is Taylor Swift's Havana.");
+    } else if (message.includes("what are your favorite places")) {
+        speak("My favorite place is the beach.");
+    } else if (message.includes("what are your favorite foods")) {
+        speak("My favorite food is pizza.");
+    } else if (message.includes("what are your favorite animals")) {
+        speak("My favorite animal is a cat.");
+    } else if (message.includes("what are your favorite colors")) {
+        speak("My favorite color is blue.");
+    } else if (message.includes("what are your favorite numbers")) {
+        speak("My favorite number is 7.");
+    } else if (message.includes("what are your favorite things")) {
+        speak("My favorite thing is a good book.");
+    } else if (message.includes("what are your favorite movies")) {
+        speak("My favorite movie is The Dark Knight.");
+    } else if (message.includes("what are your favorite songs")) {
+        speak("My favorite song is Taylor Swift's Havana.");
+    } else if (message.includes("what are your favorite places")) {
+        speak("My favorite place is the beach.");
+    } else if (message.includes("what are your favorite foods")) {
+        speak("My favorite food is pizza.");
+    } else if (message.includes("what are your favorite animals")) {
+        speak("My favorite animal is a cat.");
+    } else if (message.includes("what are your favorite colors")) {
+        speak("My favorite color is blue.");
+    } else if (message.includes("what are your favorite numbers")) {
+        speak("My favorite number is 7.");
+    } else if (message.includes("what are your favorite things")) {
+        speak("My favorite thing is a good book.");
+    } else if (message.includes("what are your favorite movies")) {
+        speak("My favorite movie is The Dark Knight.");
+    } else if (message.includes("what are your favorite songs")) {
+        speak("My favorite song is Taylor Swift's Havana.");
+    } else if (message.includes("what are your favorite places")) {
+        speak("My favorite place is the beach.");
+    } else if (message.includes("what are your favorite foods")) {
+        speak("My favorite food is pizza.");
+    } else if (message.includes("what are your favorite animals")) {
+        speak("My favorite animal is a cat.");
+    } else if (message.includes("what are your favorite colors")) {
+        speak("My favorite color is blue.");
+    } else if (message.includes("what are your favorite numbers")) {
+        speak("My favorite number is 7.");
+    } else if (message.includes("what are your favorite things")) {
+        speak("My favorite thing is a good book.");
+    } else if (message.includes("what are your favorite movies")) {
+        speak("My favorite movie is The Dark Knight.");
+    } else if (message.includes("what are your favorite songs")) {
+        speak("My favorite song is Taylor Swift's Havana.");
+    } else if (message.includes("what are your favorite places")) {
+        speak("My favorite place is the beach.");
+    } else if (message.includes("what are your favorite foods")) {
+        speak("My favorite food is pizza.");
+    } else if (message.includes("what are your favorite animals")) {
+        speak("My favorite animal is a cat.");
+    } else if (message.includes("what are your favorite colors")) {
+        speak("My favorite color is blue.");
+    } else if (message.includes("what are your favorite numbers")) {
+        speak("My favorite number is 7.");
+    } else if (message.includes("what are your favorite things")) {
+        speak("My favorite thing is a good book.");
+    } else if (message.includes("what are your favorite movies")) {
+        speak("My favorite movie is The Dark Knight.");
+    } else if (message.includes("what are your favorite songs")) {
+        speak("My favorite song is Taylor Swift's Havana.");
+    } else if (message.includes("what are your favorite places")) {
+        speak("My favorite place is the beach.");
+    } else if (message.includes("what are your favorite foods")) {
+        speak("My favorite food is pizza.");
+    } else if (message.includes("what are your favorite animals")) {
+        speak("My favorite animal is a cat.");
+    } else if (message.includes("what are your favorite colors")) {
+        speak("My favorite color is blue.");
+    } else if (message.includes("what are your favorite numbers")) {
+        speak("My favorite number is 7.");
+    } else if (message.includes("what are your favorite things")) {
+        speak("My favorite thing is a good book.");
+    } else if (message.includes("what are your favorite movies")) {
+        speak("My favorite movie is The Dark Knight.");
+    } else if (message.includes("what are your favorite songs")) {
+        speak("My favorite song is Taylor Swift's Havana.");
+    } else if (message.includes("what are your favorite places")) {
+        speak("My favorite place is the beach.");
+    } else if (message.includes("what are your favorite foods")) {
+        speak("My favorite food is pizza.");
+    } else if (message.includes("what are your favorite animals")) {
+        speak("My favorite animal is a cat.");
+    } else if (message.includes("what are your favorite colors")) {
+        speak("My favorite color is blue.");
+    } else if (message.includes("what are your favorite numbers")) {
+        speak("My favorite number is 7.");
+    } else if (message.includes("what are your favorite things")) {
+        speak("My favorite thing is a good book.");
+    } else if (message.includes("what are your favorite movies")) {
+        speak("My favorite movie is The Dark Knight.");
+    } else if (message.includes("what are your favorite songs")) {
+        speak("My favorite song is Taylor Swift's Havana.");
+    } else if (message.includes("what are your favorite places")) {
+        speak("My favorite place is the beach.");
+    } else if (message.includes("what are your favorite foods")) {
+        speak("My favorite food is pizza.");
+    } else if (message.includes("what are your favorite animals")) {
+        speak("My favorite animal is a cat.");
+    } else if (message.includes("what are your favorite colors")) {
+        speak("My favorite color is blue.");
+    } else if (message.includes("what are your favorite numbers")) {
+        speak("My favorite number is 7.");
+    } else if (message.includes("what are your favorite things")) {
+        speak("My favorite thing is a good book.");
+    } else if (message.includes("what are your favorite movies")) {
+        speak("My favorite movie is The Dark Knight.");
+    } else if (message.includes("what are your favorite songs")) {
+        speak("My favorite song is Taylor Swift's Havana.");
+    } else if (message.includes("what are your favorite places")) {
+        speak("My favorite place is the beach.");
+    } else if (message.includes("what are your favorite foods")) {
+        speak("My favorite food is pizza.");
+    } else if (message.includes("what are your favorite animals")) {
+        speak("My favorite animal is a cat.");
+    } else if (message.includes("what are your favorite colors")) {
+        speak("My favorite color is blue.");
+    } else if (message.includes("what are your favorite numbers")) {
+        speak("My favorite number is 7.");
+    } else if (message.includes("what are your favorite things")) {
+        speak("My favorite thing is a good book.");
+    } else if (message.includes("what are your favorite movies")) {
+        speak("My favorite movie is The Dark Knight.");
+    } else if (message.includes("what are your favorite songs")) {
+        speak("My favorite song is Taylor Swift's Havana.");
+    }
+
+
+
+
 
     // Open/close apps
     else if (message.includes("open instagram")) {
