@@ -1,0 +1,69 @@
+body {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-color: #000; /* Black background */
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    flex-direction: column; /* Stack items vertically */
+    margin: 0;
+    color: white; /* Default text color */
+}
+
+#logo {
+    width: 20vw;
+    margin-bottom: 20px; /* Adds spacing below the logo */
+}
+
+h1 {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 50px;
+    background: linear-gradient(90deg, #FF5733, #33FF57, #3357FF, #FF33A1); /* Gradient with multiple colors */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Makes text background visible */
+    text-align: center;
+    margin-bottom: 20px;
+    animation: color-change 5s infinite; /* Optional animation for text color changes */
+}
+
+@keyframes color-change {
+    0% { background-position: 0%; }
+    100% { background-position: 100%; }
+}
+
+#voice {
+    width: 150px;
+    display: none;
+    margin-bottom: 20px; /* Adds spacing below the voice icon */
+}
+
+#btn {
+    width: 30%;
+    background: linear-gradient(to right, rgb(21, 145, 207), rgb(201, 41, 116)); /* Gradient button */
+    color: white;
+    border: none;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(21, 145, 207, 0.7), 0px 5px 15px rgba(201, 41, 116, 0.7);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+#btn img {
+    width: 24px; /* Adjust the size of the mic icon */
+    height: 24px;
+}
+
+#btn:hover {
+    background: linear-gradient(to right, rgb(201, 41, 116), rgb(21, 145, 207));
+    letter-spacing: 2px;
+    box-shadow: 0px 8px 20px rgba(21, 145, 207, 0.9), 0px 8px 20px rgba(201, 41, 116, 0.9); /* Enhanced shadow */
+}
+
